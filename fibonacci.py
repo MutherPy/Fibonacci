@@ -1,5 +1,5 @@
 
-def fibon(num_of_members):
+def fibon(num_of_members :int) -> list:
     def recurs(num_of_members, fib_row = []):
         if num_of_members == 0:
             return fib_row
